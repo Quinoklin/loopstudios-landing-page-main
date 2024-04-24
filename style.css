@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-image: url(images/desktop/image-hero.jpg);
+    height: 60vh;
+    padding: 30px;
+    background-position: center;
+    background-size: cover;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+header a{
+    text-decoration: none;
+    color: white;
+}
+header ul{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
