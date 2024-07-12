@@ -4,7 +4,7 @@
 }
 header{
     background-image: url(images/desktop/image-hero.jpg);
-    height: 60vh;
+    height: 80vh;
     padding: 30px;
     background-position: center;
     background-size: cover;
@@ -14,12 +14,21 @@ nav{
     align-items: center;
     justify-content: space-between;
 }
-header a{
-    text-decoration: none;
-    color: white;
-}
 header ul{
     display: flex;
     gap: 20px;
     list-style: none;
+}
+header a{
+    text-decoration: none;
+    color: white;
+}
+header p{
+    color: white;
+    font-size: 3em;
+    border: 1px solid white;
+    margin-top: 10vh;
+    text-transform: uppercase;
+    width: 400px;
+    padding: 15px;
 }
